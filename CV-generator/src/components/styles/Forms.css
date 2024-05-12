@@ -1,0 +1,57 @@
+.forms {
+  background-color: transparent;
+  height: 100vh;
+  display: grid;
+  max-width: 500px;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  overflow-y: auto;
+  padding-bottom: 200px;
+  
+}
+
+/* Contact */
+.contactDiv {
+
+}
+
+
+.contactForm,
+.educationInputs,
+.skillForm,
+.aboutExpForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid rgb(234, 226, 226);
+  box-shadow: none;
+  outline: none;
+  color: rgb(49, 48, 48);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  margin: auto;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: fit-content;
+}
+
+.contactLegend {
+  border: 2px solid green
+}
+
+.contactSubmitButton {
+  background-color: yellow;
+  margin: auto;
+}
+
